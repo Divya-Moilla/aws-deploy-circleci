@@ -15,7 +15,7 @@ override_credentials:
       Deploy an application to AWS CodeDeploy with specific aws profile
     usage:
       orbs:
-        aws-code-deploy: circleci/aws-code-deploy@x.y
+        aws-code-deploy: circleci/aws-code-deploy@1.0.1
       version: 2.1
       workflows:
         deploy_application:
